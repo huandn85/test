@@ -1,0 +1,28 @@
+Actor: - Customer
+
+
+
+
+
+
+use case: Customer: - view san pham
+			  - xem gio hang
+			  - thanh toan don hang
+			  - tim kiem san pham theo ten gia
+			  - dang nhap
+			  - comment ve san pham
+			  - chat call
+			  - so sanh san pham ve chuc nang cung nhu gia.
+
+
+class:- guest
+	- Customer
+	- saller
+	- admin
+	- product
+	- order
+	- order detail
+	- cart
+	- payment 
+	- cart detail
+`	- price	
